@@ -45,4 +45,11 @@ def printer_error(s):
     #create a variable to return it, so we can print it outside of the function
     msg = '{}/{}'.format(error_length,s_lenght)
     return msg
+    #OR just
+    #return error_length + "/" + s_lenght
+    
+    
+    #-----someone else's more efficient way
+    def printer_error(s):
+        return '{}/{}'.format(sum(color > 'm' for color in s), len(s))
 
