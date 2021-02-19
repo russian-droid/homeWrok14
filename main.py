@@ -32,3 +32,16 @@ error_printer(s) => "8/22"
 
 def printer_error(s):
     # your code
+
+    
+
+s_lenght=len(s)
+error_length = 0
+
+for x in s:
+    if x not in "abcdefghijklm":
+    # another way: if x == 'a' or x == 'e' or x == 'i' or x == 'o' or x == 'u': 
+        error_length = error_length + 1
+    else: 
+        pass
+print(error_length,'/',s_lenght)
