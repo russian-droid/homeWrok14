@@ -49,7 +49,7 @@ def printer_error(s):
     #return error_length + "/" + s_lenght
     
     
-    #-----someone else's more efficient way
+    #-----someone else's solution
     def printer_error(s):
         return '{}/{}'.format(sum(color > 'm' for color in s), len(s))
 
