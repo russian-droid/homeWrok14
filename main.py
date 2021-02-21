@@ -1,5 +1,5 @@
 '''
-CodeWars kata codewars.com
+CodeWars kata from codewars.com
 
 In a factory a printer prints labels for boxes. For one kind of boxes
 the printer has to use colors which, for the sake of simplicity, are
